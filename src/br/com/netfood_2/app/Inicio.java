@@ -26,19 +26,17 @@ public class Inicio {
 
     public static void main(String[] args) {
         
-        GarcomRN gr = new GarcomRN();
+        //Garcom
         
+        /*GarcomRN gr = new GarcomRN();        
         Garcom g = new Garcom("Pedro", 3000, "83390596020");
-        
-        
         
         try {
             gr.salvar(g);
             JOptionPane.showMessageDialog(null, "Garcom " + g.getNome() + " Cadastrado com sucesso.");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
-        }
-        
+        }*/
         
     }
 

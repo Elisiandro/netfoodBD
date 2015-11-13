@@ -1,11 +1,15 @@
 package br.com.netfood_2.rn;
 
 import br.com.netfood_2.dao.GarcomDao;
+import br.com.netfood_2.dao.GenericDao;
 import br.com.netfood_2.entity.Garcom;
+import br.com.netfood_2.infra.ValidacaoRN;
 import br.com.netfood_2.rnval.GarcomRNVal;
+import java.io.Serializable;
 
 
 public class GarcomRN {
+   
     private final GarcomRNVal garcomRNVal;
     private final GarcomDao garcomDao;
 
@@ -23,5 +27,4 @@ public class GarcomRN {
     {
         return garcomDao.encontrar(id);
     }
-    
 }
